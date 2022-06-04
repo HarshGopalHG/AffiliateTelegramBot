@@ -18,7 +18,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 #Read env variables
 TOKEN = os.environ['5540700097:AAE_e4kHdOWJWTiCL77dA53jpH5V6lN4HUY']
-baseURL = os.environ['https://www.amazon.in/'] 
+baseURL = os.environ['amazon.in'] 
 affiliate_tag = os.environ['dice02-21']
 HEROKU_URL = os.environ['https://git.heroku.com/dicedeals.git']
 
